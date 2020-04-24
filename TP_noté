@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Mini projet</title>
+	<meta charset= "UTF-8" >
+	<meta name="nom de l'auteur" content="LEDUC Charlène" />
+	<meta name="adresse electronique" content="charlene.leduc@alumni.univ-avignon.fr" />
+	<meta name="description" content="Mini Projet" />
+	<meta name="mots clés" content="atelier, HTML" />
+	<meta name="type MIM" content="text/html" />  
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="mini_projet.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-camo.css">
+</head>
+
+<body>
+<!-- Navbar -->
+	<div class="w3-top">
+		<div class="w3-bar w3-theme w3-top w3-large w3-camo-grey">
+			<span class="w3-bar-item" style="width:40%">Titre</span>
+			<div class="recherche">
+				<input class="w3-bar-item w3-button w3-white w3-hover-white" type="text" placeholder="Rechercher" name="search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</div>
+			<a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">S'inscrire</a>
+			<a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">S'identifier</a>
+		</div>
+	</div>
+	
+<!-- Menu -->
+	<div class="w3-bar w3-black">
+		<a href="#" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a>
+		<a href="#" class="w3-bar-item w3-button">Beauté</a>
+		<a href="#" class="w3-bar-item w3-button">Sport</a>
+		<a href="#" class="w3-bar-item w3-button">Jeux vidéos</a>
+	</div>
+
+<!-- Colonne gauche -->
+	<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px"> 
+		<div class="w3-row-padding">
+			<div class="w3-col s4">
+				<div class="w3-card w3-round w3-white">
+					<div class="w3-container">
+						<p>Article 1</p>
+					</div>
+				</div>
+			</div>
+<!-- Colonne mileu -->
+			<div class="w3-col s4">
+				<div class="w3-card w3-round w3-white">
+					<div class="w3-container">
+						<p>Article 2</p>
+					</div>
+				</div>
+			</div>
+<!-- Colonne droite -->
+			<div class="w3-col s4">
+				<div class="w3-card w3-round w3-white">
+					<div class="w3-container">
+						<p>Article 3</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

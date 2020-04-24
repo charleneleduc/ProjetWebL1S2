@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.w3-top input[type=text] {
+	float: right;
+	padding: 9px;
+	border: none;
+	margin-top: 3px;
+	margin-right: 16px;
+	font-size: 12px;
+}
+.w3-top .recherche button {
+	float: right;
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	.w3-top .recherche {
+		float: none;
+	}
+	.w3-top a, .w3-top input[type=text], .w3-top .recherche button {
+		float: none;
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;
+	}
+	.w3-top input[type=text] {
+		border: 1px solid #ccc;  
+	}
+}
+
+#art1{
+	padding-top: 100px;
+}
